@@ -9,4 +9,7 @@ public class Book {
         this.kind = kind;
     }
 
+    public String toString() {
+        return "[" + title + " : " + price + "]";
+    }
 }
